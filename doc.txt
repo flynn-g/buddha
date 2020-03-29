@@ -1,5 +1,5 @@
 1.IDEA Mac快捷键
- cmd+O 查找类
+ cmd+O # 查找类
  cmd+shift+O 查找文件
  cmd+shift+F 全局查找
  cmd+L 跳转行
