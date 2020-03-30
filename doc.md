@@ -95,6 +95,24 @@
 
  > `$ git remote -v`
 
+添加远程仓库
+ > `$ git remote add pb https://github.com/paulboone/ticgit`
+
+从远程仓库中抓取与拉取
+ > `$ git fetch <remote>`
+
+ > `git pull`
+
+推送到远程仓库
+ > `git push <remote> <branch>`
+
+查看某个远程仓库
+ > `git remote show <remote>`
+
+远程仓库的重命名与移除
+ > `$ git remote rename oldName newName`
+
+ > `$ git remote remove name`
 
  processPinpadResponse.sdi
  `APDInterfaceService.html` `APDInterfaceApplet.html`
