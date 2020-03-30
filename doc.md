@@ -90,7 +90,10 @@
 撤消对文件的修改
  > `$ git checkout -- filename`
 
+查看远程仓库
+ > `$ git remote`
 
+ > `$ git remote -v`
 
 
  processPinpadResponse.sdi
@@ -99,5 +102,5 @@
  new cui: `npm install` > `npm satrt` / `npm run build:dev` / `npm run build:prod`
 
 
- 123
+ 123 asd
 
