@@ -81,6 +81,16 @@
 
  > `$ git log --pretty="%h - %s" --author='Junio C Hamano' --since="2008-10-01"        --before="2008-11-01" --no-merges`
 
+撤消操作
+ > `$ git commit --amend`
+
+取消暂存的文件
+ > `$ git reset HEAD filename`
+
+撤消对文件的修改
+ > `$ git checkout -- filename`
+
+
 
 
  processPinpadResponse.sdi
@@ -89,5 +99,5 @@
  new cui: `npm install` > `npm satrt` / `npm run build:dev` / `npm run build:prod`
 
 
- 123 456
+ 123
 
