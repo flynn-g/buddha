@@ -97,19 +97,23 @@
 
  > `$ git remote -v`
 
+ > `$ git remote show <remote>`
+
+ > `$ git ls-remote <remote>`
+
 添加远程仓库
  > `$ git remote add pb https://github.com/paulboone/ticgit`
 
 从远程仓库中抓取与拉取
  > `$ git fetch <remote>`
 
- > `git pull`
+ > `$ git pull`
 
 推送到远程仓库
- > `git push <remote> <branch>`
+ > `$ git push <remote> <branch>`
 
 查看某个远程仓库
- > `git remote show <remote>`
+ > `$ git remote show <remote>`
 
 远程仓库的重命名与移除
  > `$ git remote rename oldName newName`
@@ -128,6 +132,8 @@
 分支的合并
  > `$ git merge iss53`
 
+ > `git merge origin/serverfix`
+
 删除分支
  > `$ git branch -d iss53`     （强制删除 -D）
 
@@ -136,11 +142,29 @@
 
  > `$ git branch -v`
 
+ > `$ git branch -vv` (查看跟踪)
+
  > `$ git branch --merged`
 
  > `$ git branch --no-merged`
 
+推送到远端分支
+ > `$git push origin localName:remoteName`
 
+删除远程分支
+ > `$ git push origin --delete remoteName`
+
+拉取远端分支到本地新分支
+ > `$ git checkout -b localName origin/remoteName`
+
+跟踪分支
+ > `$ git checkout --track origin/serverfix` (新建分支并跟踪)
+
+ > `$ git branch -u origin/serverfix` （修改跟踪 --set-upstream-to）
+
+
+
+ 
 
  processPinpadResponse.sdi
  `APDInterfaceService.html` `APDInterfaceApplet.html`
