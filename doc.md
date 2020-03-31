@@ -162,16 +162,29 @@
 
  > `$ git branch -u origin/serverfix` （修改跟踪 --set-upstream-to）
 
+贮藏与清理
+ > `$ git stash` (只会贮藏已修改和暂存的 已跟踪 文件)
 
+ > `$ git stash push`
 
- 
+ > `$ git stash --keep-index`
+
+ > `$ git stash --include-untracked` (-u 包含未跟踪的文件仍然不会包含明确 忽略 的文件, --all)
+
+ > `$ git stash list`
+
+ > `$ git stash apply stash@{2}`
+
+ > `$ git stash drop` 
+
+ > `$ git stash pop`
+
+ > `$ git clean`
+
+ > `$ git clean -d -n` (将要 移除什么)
+
 
  processPinpadResponse.sdi
  `APDInterfaceService.html` `APDInterfaceApplet.html`
  
  new cui: `npm install` > `npm satrt` / `npm run build:dev` / `npm run build:prod`
-
-
- 123 asd
-
-master
