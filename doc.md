@@ -116,6 +116,32 @@
 
  > `$ git remote remove name`
 
+分支创建
+ > `$ git branch testing`
+
+分支切换
+ > `$ git checkout testing`
+
+分支创建并切换
+ > `$ git checkout -b testing`
+
+分支的合并
+ > `$ git merge iss53`
+
+删除分支
+ > `$ git branch -d iss53`     （强制删除 -D）
+
+查看分支
+ > `$ git branch`
+
+ > `$ git branch -v`
+
+ > `$ git branch --merged`
+
+ > `$ git branch --no-merged`
+
+
+
  processPinpadResponse.sdi
  `APDInterfaceService.html` `APDInterfaceApplet.html`
  
