@@ -23,7 +23,7 @@
 生成秘钥SSH-Key, 在~/.ssh/目录会生成`id-rsa_lab`和`id-rsa_lab.pub`私钥和公钥。
  > `$ ssh-keygen -t rsa -C "注册的gitlab邮箱" -f ~/.ssh/id_rsa_lab`
 
- > `$ ssh-keygen -t rsa -C "注册的github邮箱" -f ~/.ssh/id_rsa_hub`
+ > `$ ssh-keygen -t rsa -C "注册的github邮箱" -f ~/.ssh/id_rsa_huba`
 
 设置用户信息
  > `$ git config --global user.name "John Doe"`
