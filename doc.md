@@ -12,7 +12,7 @@
  删除行|`cmd+Del/shift+Del`
  复制行|`cmd+D`
  快捷生成代码|`cmd+N`
- 格式化代码|`cmd+option+`
+ 格式化代码|`cmd+option+L`
  快捷生成语法|`cmd+option+T`
  覆盖父类方法|`ctrl+O`
  实现父类方法|`ctrl+I`
@@ -182,9 +182,3 @@
  > `$ git clean`
 
  > `$ git clean -d -n` (将要 移除什么)
-
-
- processPinpadResponse.sdi
- `APDInterfaceService.html` `APDInterfaceApplet.html`
- 
- new cui: `npm install` > `npm satrt` / `npm run build:dev` / `npm run build:prod`
